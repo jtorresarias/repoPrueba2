@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#pilares {
+  width: 100px;
+}
+
+#titulo {
+  color: brown;
+  font-size: 50px;
+  font-family: fantasy;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  height: 150px;
+  align-items: center;
+}
+
+.padre {
+  border: 3px blue solid;
+  display: flex;
+  justify-content: space-around;
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  font-size: 24px;
+  color: black;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.verde {
+  background-color: green;
+}
+.amarillo {
+  background-color: yellow;
+}
