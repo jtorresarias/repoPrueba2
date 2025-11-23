@@ -50,3 +50,89 @@ header {
 .amarillo {
   background-color: yellow;
 }
+
+.padre2 {
+  border: 3px black dotted;
+  display: flex;
+  justify-content: space-between;
+}
+
+.padre3 {
+  border: 3px red dashed;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.padre4 {
+  border: 3px green double;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.padre5 {
+  border: 10px yellow groove;
+  display: flex;
+  justify-content: center;
+}
+
+.padre6 {
+  border: 10px pink ridge;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.padre7 {
+  border: 10px purple inset;
+  display: flex;
+  align-items: center;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.padre8 {
+  border: 10px orange outset;
+  display: flex;
+  align-items: end;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.padre9 {
+  border: 3px brown solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.padre10 {
+  border: 3px blueviolet dotted;
+  display: flex;
+  justify-content: space-around;
+}
+
+#caja1 {
+  order: 3;
+}
+
+#caja2 {
+  order: 2;
+}
+
+#caja3 {
+  order: 1;
+}
+
+.padre11 {
+  border: 3px silver dashed;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#caja6 {
+  align-self: center;
+}
+
+#caja8 {
+  align-self: flex-end;
+}
